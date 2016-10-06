@@ -1,0 +1,3056 @@
+body {
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .71), #000), url('../images/1242342.jpg');
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .71), #000), url('../images/1242342.jpg');
+  background-position: 0% 0%, 0% 0%;
+  background-size: auto, auto;
+  background-repeat: repeat, repeat;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: Lato, sans-serif;
+  color: #00bdd6;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h5 {
+  margin-top: 30px;
+  font-family: Lato, sans-serif;
+  color: #a3b5b8;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  color: #607173;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+a {
+  display: block;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  border: 1px solid transparent;
+  font-family: Lato, sans-serif;
+  color: #00e;
+}
+
+a.w--current {
+  position: absolute;
+  display: block;
+  float: none;
+}
+
+.button {
+  display: inline-block;
+  width: 150px;
+  height: auto;
+  margin-top: 40px;
+  padding: 12px 15px;
+  float: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .6);
+}
+
+.button:hover {
+  border-color: #00bdd6;
+  background-color: #00bdd6;
+}
+
+.button.hollow {
+  margin-top: 15px;
+  border-width: 1px;
+}
+
+.button.reviews {
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.button.jp {
+  margin-top: 20px;
+}
+
+.navbar-link {
+  display: inline-block;
+  padding-right: 12px;
+  padding-left: 12px;
+  float: none;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  font-family: Lato, sans-serif;
+  color: rgba(163, 181, 184, .76);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar-link:hover {
+  color: #fff;
+}
+
+.navbar-link.w--current {
+  position: relative;
+  display: inline-block;
+  padding-right: 12px;
+  padding-left: 12px;
+  float: none;
+  font-family: Lato, sans-serif;
+  color: #00bdd6;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.portfolio-title {
+  display: block;
+  font-family: Lato, sans-serif;
+  color: #00bdd6;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.portfolio-post {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  background-image: url('../images/shutterstock_192018734.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._1 {
+  width: 210%;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-image: url('../images/DELF_LIV_1.jpg');
+  background-position: 0px -53px;
+  background-size: cover;
+}
+
+.portfolio-post._1.small {
+  width: 100%;
+  background-position: 50% 50%;
+}
+
+.portfolio-post._1.taksilou {
+  background-image: url('../images/TAKS_LIV_3.JPG');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.portfolio-post._1.taksilou.in {
+  width: 100%;
+}
+
+.portfolio-post._1.tsakalof {
+  background-image: url('../images/TSAK_LIV_2.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.portfolio-post._1.tsakalof.in {
+  width: 100%;
+}
+
+.portfolio-post._1.tsakalof._2 {
+  width: 210%;
+  background-image: url('../images/TSAK_DIN_1.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.portfolio-post._1.tsakalof._2.in {
+  width: 100%;
+}
+
+.portfolio-post._1.dinokratous {
+  background-image: url('../images/DINO_LIV_1.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.portfolio-post._1.dinokratous.in {
+  width: 100%;
+}
+
+.portfolio-post._1.sounio {
+  background-image: url('../images/SOYN_LIV_1.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.portfolio-post._1.sounio.in {
+  width: 100%;
+}
+
+.portfolio-post._1.in {
+  width: 100%;
+  margin-top: -1px;
+  background-position: 50% 50%;
+}
+
+.portfolio-post._1.in.up {
+  margin-top: 1px;
+}
+
+.portfolio-post._1.in.up.down {
+  margin-top: 17px;
+  padding-top: 1px;
+}
+
+.portfolio-post._1._15 {
+  background-image: url('../images/DELF_OUT_1.jpg');
+}
+
+.portfolio-post._1.ipsolantoub {
+  background-image: url('../images/IpsilantouB_Living2.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2 {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/81.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.portfolio-post._2.delfon {
+  background-image: url('../images/DELF_OUT_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.taskilou {
+  background-image: url('../images/TAKS_LIV.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.dinokratous {
+  background-image: url('../images/DINO_OUT_2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.kea {
+  background-image: url('../images/KEA_OUT_4.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.sounio {
+  background-image: url('../images/SOYN_OUT_2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.tsakalof {
+  background-image: url('../images/TSAK_OUT_3.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.ipsilantoub {
+  background-image: url('../images/IpsilantouB_Living4.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._2.ipsilantous {
+  background-image: url('../images/IpsilantouS_Bedroom3.resized.jpg');
+  background-position: -24px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._3 {
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-image: url('../images/DELF_OUT_1.jpg');
+  background-position: -55px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._3.in {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.taksilou {
+  background-image: url('../images/TAKS_KICH_1.JPG');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._3.taksilou.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.tsakalof {
+  background-image: url('../images/TSAK_KICH_2.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._3.tsakalof.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.dinokratous {
+  background-image: url('../images/DINO_KICH_2.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._3.dinokratous.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.kea {
+  background-image: url('../images/KEA_KICH_1.JPG');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._3.kea.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.sounio {
+  background-image: url('../images/SOYN_KICH_1.jpg');
+  background-position: 35% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._3.sounio.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._3.ipsolantoub {
+  background-image: url('../images/IpsilantouB_Kitchen1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._4 {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/DELF_OUT_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._4.taksilou {
+  background-image: url('../images/TAKS_LIV_1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._4.tsakalof {
+  background-image: url('../images/TSAK_LIV_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._4.dinokratous {
+  background-image: url('../images/DINO_LIV_4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._4.kea {
+  background-image: url('../images/KEA_OUT_7.JPG');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.portfolio-post._4.sounio {
+  background-image: url('../images/SOYN_OUT_1.JPG');
+  background-position: 44% 63%;
+  background-size: cover;
+}
+
+.portfolio-post._4.ipsilantoub {
+  background-image: url('../images/IpsilantouB_Balc1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: 400px;
+}
+
+.portfolio-post._6 {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/DELF_BED_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._6.taksilou {
+  background-image: url('../images/TAKS_BED_1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._6.tsakalof {
+  background-image: url('../images/TSAK_BED_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._6.dinokratous {
+  background-image: url('../images/DINO_BED_1.jpg');
+  background-position: 87% 100%;
+  background-size: cover;
+}
+
+.portfolio-post._6.kea {
+  background-image: url('../images/KEA_BED_1.JPG');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.portfolio-post._6.sounio {
+  background-image: url('../images/SOYN_BED_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._6.ipsolantoub {
+  background-image: url('../images/IpsilantouB_Bed1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._7 {
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/42.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._8 {
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/555.jpg');
+}
+
+.portfolio-post._9 {
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/64.jpg');
+}
+
+.portfolio-post._10 {
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/DELF_BATH_1.jpg');
+  background-position: -22px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._10.taksilou {
+  background-image: url('../images/TAKS_BATH_1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._10.tsakalof {
+  background-image: url('../images/TSAK_BATH_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._10.dinokratous {
+  background-image: url('../images/DINO_BATH_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._10.kea {
+  background-image: url('../images/KEA_LIV_1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._10.sounio {
+  background-image: url('../images/SOYN_BATH_1.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.portfolio-post._10.ipsolantoub {
+  background-image: url('../images/IpsilantouB_Bath1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._11 {
+  height: 250px;
+  border-radius: 10px;
+  background-image: url('../images/1111shutterstock_137898407.jpg');
+}
+
+.portfolio-post._11.ipsilantoub.overview {
+  background-image: url('../images/IpsilantouB_Balc1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: 400px;
+}
+
+.portfolio-post._12 {
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-image: url('../images/DELF_KICH_1.jpg');
+  background-position: -24px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._12.taksilou {
+  background-image: url('../images/TAKS_OUT_2.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._12.taksilou.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._12.tsakalof {
+  background-image: url('../images/TSAK_OUT_2.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._12.tsakalof.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._12.dinokratous {
+  background-image: url('../images/DINO_OUT_2.jpg');
+  background-position: 30% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._12.dinokratous.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._12.kea {
+  background-image: url('../images/KEA_OUT_2.JPG');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.portfolio-post._12.kea.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._12.sounio {
+  background-image: url('../images/SOYN_OUT_3.jpg');
+  background-position: 70% 50%;
+  background-size: cover;
+}
+
+.portfolio-post._12.sounio.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._12.up {
+  margin-top: 0px;
+}
+
+.portfolio-post._12.ipsolantoub {
+  background-image: url('../images/IpsilantouB_Balc2.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.portfolio-post._13 {
+  background-image: url('../images/DELF_OUT_1.jpg');
+}
+
+.portfolio-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: transparent;
+}
+
+.portfolio-link.w--current {
+  position: static;
+  display: block;
+  padding-left: 10px;
+  float: right;
+  text-align: left;
+}
+
+.colorbox {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0px 20px;
+  border: 13px solid transparent;
+  border-radius: 7px;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .7), rgba(0, 0, 0, .75));
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .7), rgba(0, 0, 0, .75));
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 65px;
+  margin-top: -10px;
+  margin-right: 10px;
+  float: left;
+  clear: none;
+}
+
+.copyright {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: rgba(163, 181, 184, .58);
+  font-weight: 300;
+}
+
+.copyright.created-by {
+  float: left;
+}
+
+.slider {
+  height: 540px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.slider.home {
+  width: auto;
+  height: auto;
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+.arrow {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 35px;
+  opacity: 0.4;
+  font-size: 24px;
+}
+
+.arrow:hover {
+  opacity: 1;
+}
+
+.slider-1 {
+  border-radius: 10px;
+}
+
+.slider-1.testimonials {
+  border: 1px solid rgba(163, 181, 184, .14);
+}
+
+.slider2 {
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(270deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/DELF_OUT_2.jpg');
+  background-image: linear-gradient(180deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/DELF_OUT_2.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.slider2.tsakalof {
+  background-image: -webkit-linear-gradient(270deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/TSAK_DIN_5.jpg');
+  background-image: linear-gradient(180deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/TSAK_DIN_5.jpg');
+}
+
+.slider2.taksilou {
+  background-image: -webkit-linear-gradient(270deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/TAKS_BED_2.JPG');
+  background-image: linear-gradient(180deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/TAKS_BED_2.JPG');
+  background-size: auto, cover;
+}
+
+.slider2.dinokratous {
+  background-image: -webkit-linear-gradient(270deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/DINO_road_1.jpg');
+  background-image: linear-gradient(180deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/DINO_road_1.jpg');
+}
+
+.slider2.ipsolantoub {
+  background-image: -webkit-linear-gradient(270deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/IpsilantouB_Living4.resized.jpg');
+  background-image: linear-gradient(180deg, rgba(29, 163, 45, .7), rgba(187, 213, 216, .78)), url('../images/IpsilantouB_Living4.resized.jpg');
+  background-size: auto, cover;
+}
+
+.hero-heading {
+  margin-bottom: 10px;
+  opacity: 1;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .6);
+}
+
+.hero-text {
+  margin-top: 80px;
+  margin-bottom: 130px;
+  margin-left: 0px;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.left-arrow {
+  display: block;
+}
+
+.right-arrow {
+  display: block;
+}
+
+.slide-nav {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.hero-subheader {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.google-map {
+  width: 100%;
+  height: 520px;
+  border-radius: 10px;
+}
+
+.slider_part_in_in {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.mask {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.social-link-wrapper {
+  display: block;
+  margin-top: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: none;
+  text-align: center;
+}
+
+.social-link-wrapper.about {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.social-link {
+  width: 35px;
+  height: 35px;
+  margin-top: 0px;
+  margin-right: 10px;
+  padding: 6px 8px 8px;
+  float: none;
+  border: 0px none transparent;
+  border-radius: 5px;
+  background-color: #00bdd6;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.social-link:hover {
+  border-color: transparent;
+  background-color: #038596;
+}
+
+.testimonials-info {
+  display: block;
+  margin-right: 200px;
+  float: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.testimonials-info.testimonials {
+  width: 100%;
+  height: 100%;
+  margin-right: 0px;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.footer-section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.divider {
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: hsla(0, 0%, 100%, .09);
+}
+
+.divider._3 {
+  margin-top: 10px;
+  margin-bottom: 21px;
+}
+
+.divider.overview {
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+}
+
+.big-headline {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid hsla(0, 0%, 100%, .09);
+  border-bottom: 1px solid hsla(0, 0%, 100%, .09);
+  font-family: Lato, sans-serif;
+  color: #a3b5b8;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.big-headline.home {
+  display: none;
+  margin-top: 10px;
+}
+
+.form {
+  height: 520px;
+  padding: 20px;
+  border: 2px solid rgba(163, 181, 184, .09);
+  border-radius: 10px;
+}
+
+.form.wrapper {
+  height: 734px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 1px;
+}
+
+.form-field {
+  padding-left: 12px;
+  border: 1px solid hsla(0, 0%, 100%, .09);
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+
+.form-field.text {
+  padding-top: 0px;
+  padding-left: 0px;
+  border-style: none;
+}
+
+.form-field.text.checkbox {
+  margin-left: -5px;
+}
+
+.text-area {
+  padding-bottom: 75px;
+  padding-left: 12px;
+  border: 1px solid hsla(0, 0%, 100%, .09);
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.success-message {
+  border: 1px solid #00bdd6;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+
+.error-message {
+  border-radius: 10px;
+  background-color: #00bdd6;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.go-about {
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  margin-right: 15px;
+  padding: 5px;
+  float: right;
+  border-color: #00bdd6;
+  border-radius: 10px;
+  background-color: #00bdd6;
+  background-image: url('../images/arrow133.png');
+  background-position: 50% 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.go-about:hover {
+  border-color: #00bdd6;
+  background-color: #00bdd6;
+  background-image: url('../images/arrow133-white.png');
+  background-size: 20px;
+}
+
+.go-about.delfon {
+  margin-top: 25px;
+}
+
+.go-about.delfon:hover {
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.tagline {
+  float: none;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tagline._2 {
+  display: block;
+  margin-left: 0px;
+  float: left;
+  clear: none;
+}
+
+.tagline._1 {
+  display: block;
+  margin-left: 10px;
+  float: left;
+  clear: none;
+}
+
+.tagline._1._2 {
+  margin-left: 50px;
+}
+
+.tagline._3 {
+  float: left;
+}
+
+.tagline._2_2 {
+  display: block;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  float: left;
+}
+
+.tagline._2_1 {
+  margin-left: 30px;
+  float: left;
+}
+
+.center {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.center.h5 {
+  margin-top: 20px;
+}
+
+.center.jp {
+  text-shadow: 0 1px 0 #000;
+}
+
+.about-me-box {
+  height: 600px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid rgba(163, 181, 184, .09);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-me-box.part {
+  width: 400px;
+  height: 450px;
+  margin-left: 35px;
+}
+
+.about-me-box.home {
+  height: auto;
+  margin-top: 10px;
+}
+
+.about-us-box {
+  height: 250px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid rgba(163, 181, 184, .09);
+  border-radius: 10px;
+}
+
+.about-us-box.about_company {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.map-link-block {
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+  border-style: none;
+}
+
+.team-box {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-right: 250px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.team-box.delfon {
+  padding-top: 5px;
+  padding-right: 0px;
+  border-radius: 10px;
+  background-color: rgba(184, 130, 81, .5);
+}
+
+.team-box.delfon._2 {
+  padding-top: 5px;
+}
+
+.team-box.jp {
+  padding-right: 10px;
+}
+
+.testimonials-text {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+
+.about-post {
+  height: 299px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(163, 181, 184, .14);
+  border-radius: 10px;
+}
+
+.about-post.second {
+  background-image: url('../images/122.jpg');
+}
+
+.about-post.second.jp {
+  height: 500px;
+  background-image: -webkit-linear-gradient(270deg, rgba(79, 69, 150, .38), rgba(0, 0, 0, .47)), url('../images/header_small.jpg');
+  background-image: linear-gradient(180deg, rgba(79, 69, 150, .38), rgba(0, 0, 0, .47)), url('../images/header_small.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.about-post.delfon {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(270deg, rgba(70, 55, 55, .6), rgba(214, 163, 0, .7)), url('../images/22.jpg');
+  background-image: linear-gradient(180deg, rgba(70, 55, 55, .6), rgba(214, 163, 0, .7)), url('../images/22.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.about-post.about {
+  height: 300px;
+}
+
+.slider_part_in {
+  height: auto;
+}
+
+.fullwidth-photo {
+  height: 540px;
+  border-radius: 10px;
+  background-image: url('../images/1234321.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.black {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 0 #000;
+}
+
+.black.delfon {
+  margin-top: 0px;
+  color: #fff;
+}
+
+.black.delfon._2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: none;
+  clear: left;
+  text-align: left;
+}
+
+.contact-details-box {
+  width: 100%;
+  height: 250px;
+  padding: 15px;
+  border: 1px solid rgba(163, 181, 184, .09);
+  border-radius: 10px;
+}
+
+.about-project-box {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid rgba(163, 181, 184, .2);
+  border-radius: 10px;
+}
+
+.navmenu {
+  float: right;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+
+.lightbox_image {
+  display: inline-block;
+  width: auto;
+  max-width: 85%;
+  border-radius: 10px;
+}
+
+.lightbox_image.taksilou.long {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+
+.lightbox_image.tsakalof {
+  width: auto;
+}
+
+.lightbox_image.kea {
+  margin-left: 0px;
+}
+
+.lightbox_image.kea.long {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+
+.lightbox_image.sounio.long {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+
+.lightbox_column {
+  position: static;
+  display: block;
+  height: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.lightbox_column.sounio {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.lightbox_container {
+  margin-bottom: 20px;
+}
+
+.apartments_row_2 {
+  display: none;
+}
+
+.apartments_row_3 {
+  display: none;
+}
+
+.slider_part {
+  width: 500px;
+  height: 420px;
+  margin-right: 10px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.slider_part_mask {
+  position: static;
+  width: auto;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.slider_part_out {
+  background-image: url('../images/DELF_BED_3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1 {
+  border-radius: 10px;
+  background-image: url('../images/DELF_BATH_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.delfon_bath {
+  background-image: url('../images/DELF_BATH_1.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.slider_part_1.delfon_bed {
+  background-image: url('../images/DELF_BED_3.jpg');
+  background-position: 45% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.delfon_kitch {
+  background-image: url('../images/DELF_KICH_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.delfon_kitch.delf_out {
+  background-image: url('../images/IMG_20150318_123039.jpg');
+}
+
+.slider_part_1.taksilou_kitchen {
+  background-image: url('../images/TAKS_KICH_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.taksilou_bedroom {
+  background-image: url('../images/TAKS_BED_1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.taksilou_living {
+  background-image: url('../images/TAKS_LIV_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.taksilou_bathroom {
+  background-image: url('../images/TAKS_BATH_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.taksilou_out {
+  background-image: url('../images/TAKS_OUT_1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.tsakalof_bedroom {
+  background-image: url('../images/TSAK_BED_8.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.tsakalof_out {
+  background-image: url('../images/TSAK_OUT_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.tsakalof_bath {
+  background-image: url('../images/TSAK_BATH_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.tsakalof_kitch {
+  background-image: url('../images/TSAK_KICH_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.dinokratous_kitchen {
+  background-image: url('../images/DINO_KICH_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.dinokratous_bathroom {
+  background-image: url('../images/DINO_BATH_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.dinokratous_out {
+  background-image: url('../images/DINO_OUT_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.dinokratous_living {
+  background-image: url('../images/DINO_LIV_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.sounio_kitchen {
+  background-image: url('../images/SOYN_KICH_1.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.kea_kitchen {
+  background-image: url('../images/KEA_KICH_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.kea_bedroom {
+  background-image: url('../images/KEA_BED_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.kea_out {
+  background-image: url('../images/KEA_OUT_7.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.kea_living {
+  background-image: url('../images/KEA_LIV_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.sounio_bedroom {
+  background-image: url('../images/SOYN_BED_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.sounio_out {
+  background-image: url('../images/SOYN_OUT_1.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.sounio_living {
+  background-image: url('../images/SOYN_LIV_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_1.kea_kitchen_2 {
+  background-image: url('../images/KEA_KICH_3.JPG');
+  background-size: cover;
+}
+
+.slider_part_1.ipsilantoub_bed {
+  background-image: url('../images/IpsilantouB_Bed1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.ipsilantoub_bath {
+  background-image: url('../images/IpsilantouB_Bath1.resized.jpg');
+  background-position: 34px -182px;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.slider_part_1.ipsilantoub_liv {
+  background-image: url('../images/IpsilantouB_Living1.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_1.ipsilantoub_kitch {
+  background-image: url('../images/IpsilantouB_Kitchen1.resized.jpg');
+}
+
+.slider_part_1.ipsilantoub_out {
+  background-image: url('../images/IpsilantouB_Balc1.resized.jpg');
+  background-position: -91px 0px;
+  background-size: cover;
+}
+
+.slider_part_2 {
+  border-width: 10px;
+  background-image: url('../images/DELF_BATH_2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.delfon_bed {
+  background-image: url('../images/DELF_BED_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.delfon_kitch {
+  background-image: url('../images/DELF_KICH_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.taksilou_kitchen {
+  background-image: url('../images/TAKS_KICH_2.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.taksilou_bedroom {
+  background-image: url('../images/TAKS_BED_2.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.taksilou_living {
+  background-image: url('../images/TAKS_LIV_2.JPG');
+  background-position: 50% 85%;
+  background-size: cover;
+}
+
+.slider_part_2.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.tsakalof_bedroom {
+  background-image: url('../images/TSAK_BED_2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.tsakalof_out {
+  background-image: url('../images/TSAK_OUT_2.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.tsakalof_bath {
+  background-image: url('../images/TSAK_BATH_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.tsakalof_kitch {
+  background-image: url('../images/TSAK_KICH_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.dinokratous_kitchen {
+  background-image: url('../images/DINO_KICH_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.dinokratous_bathroom {
+  background-image: url('../images/DINO_BATH_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.dinokratous_living {
+  background-image: url('../images/SOUNIO_KITCH_3.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+.slider_part_2.kea_kitchen {
+  background-image: url('../images/KEA_KICH_2.JPG');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.slider_part_2.kea_bedroom {
+  background-image: url('../images/KEA_BED_2.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.kea_out {
+  background-image: url('../images/KEA_OUT_2.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.kea_living {
+  background-image: url('../images/KEA_LIV_2.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.sounio_bedroom {
+  background-image: url('../images/SOYN_BED_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.sounio_out {
+  background-image: url('../images/SOYN_OUT_2.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.slider_part_2.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_2.jpg');
+  background-position: 50% 34%;
+  background-size: cover;
+}
+
+.slider_part_2.sounio_living {
+  background-image: url('../images/SOYN_LIV_2.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.slider_part_2.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_2.ipsilantoub_bed {
+  background-image: url('../images/IpsilantouB_Bed2.resized.jpg');
+  background-position: -43px 0px;
+  background-size: cover;
+}
+
+.slider_part_2.ipsilantoub_bath {
+  background-image: url('../images/IpsilantouB_Bath2.resized.jpg');
+  background-position: 1px -163px;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.slider_part_2.ipsilantoub_out {
+  background-image: url('../images/IpsilantouB_Balc2.resized.jpg');
+  background-position: -37px 0px;
+  background-size: cover;
+}
+
+.slider_part_3 {
+  border-radius: 10px;
+  background-image: url('../images/DELF_BATH_3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.delfon_bed {
+  background-image: url('../images/DELF_BED_1.jpg');
+  background-position: 38% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.delfon_kitch {
+  background-image: url('../images/DELF_KICH_3.jpg');
+  background-position: 36% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.delfon_kitch.delf_out {
+  background-image: url('../images/DELF_OUT_3.jpg');
+}
+
+.slider_part_3.taksilou_living {
+  background-image: url('../images/TAKS_LIV_3.JPG');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.slider_part_3.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_3.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.tsakalof_bedroom {
+  background-image: url('../images/TSAK_BED_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.tsakalof_out {
+  background-image: url('../images/TSAK_OUT_3.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.tsakalof_kitch {
+  background-image: url('../images/TSAK_KICH_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.dinokratous_kitchen {
+  background-image: url('../images/DINO_KICH_4.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.dinokratous_bathroom {
+  background-image: url('../images/DINO_OUT_3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.dinokratous_living {
+  background-image: url('../images/DINO_LIV_3.jpg');
+  background-position: 45% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.kea_out {
+  background-image: url('../images/KEA_OUT_3.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.kea_living {
+  background-image: url('../images/KEA_LIV_3.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.sounio_bedroom {
+  background-image: url('../images/SOUN_BED_13.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.sounio_out {
+  background-image: url('../images/SOYN_OUT_9.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_4.jpg');
+  background-position: 50% 27%;
+  background-size: cover;
+}
+
+.slider_part_3.sounio_living {
+  background-image: url('../images/SOYN_LIV_3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_3.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_3.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.slider_part_3.tsakalof_out_5 {
+  background-image: url('../images/TSAK_OUT_8.jpg');
+}
+
+.slider_part_3.ipsilantoub_bed {
+  background-image: url('../images/IpsilantouB_Bed3.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_3.ipsilantoub_out {
+  background-image: url('../images/IpsilantouB_Out1.resized.jpg');
+  background-position: 0px -251px;
+  background-size: cover;
+}
+
+.paragraph_part_in {
+  color: #fff;
+  font-size: 15px;
+}
+
+.slider_first._1 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.slider_first._3 {
+  margin-bottom: 0px;
+}
+
+.slider_first_in {
+  background-color: transparent;
+}
+
+.slider3 {
+  border-radius: 10px;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(270deg, rgba(144, 150, 2, .6), rgba(15, 59, 45, .65)), url('../images/SOYN_BATH_3.jpg');
+  background-image: linear-gradient(180deg, rgba(144, 150, 2, .6), rgba(15, 59, 45, .65)), url('../images/SOYN_BATH_3.jpg');
+  background-position: 0px 0px, 0px 50%;
+  background-size: auto, cover;
+}
+
+.slider3.kea {
+  background-image: -webkit-linear-gradient(270deg, rgba(144, 150, 2, .6), rgba(15, 59, 45, .65)), url('../images/KEA_ROAD_3.jpg');
+  background-image: linear-gradient(180deg, rgba(144, 150, 2, .6), rgba(15, 59, 45, .65)), url('../images/KEA_ROAD_3.jpg');
+}
+
+.slider4 {
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(270deg, rgba(96, 105, 103, .75), rgba(158, 60, 24, .61)), url('../images/KEA_OUT_6.JPG');
+  background-image: linear-gradient(180deg, rgba(96, 105, 103, .75), rgba(158, 60, 24, .61)), url('../images/KEA_OUT_6.JPG');
+  background-position: 0px 0px, -216px 50%;
+  background-size: auto, 950px;
+}
+
+.slider5 {
+  background-image: -webkit-linear-gradient(270deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/TAKS_LIV_4.JPG');
+  background-image: linear-gradient(180deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/TAKS_LIV_4.JPG');
+  background-position: 0px 0px, 100% 100%;
+  background-size: auto, cover;
+}
+
+.slider5.tsakalof {
+  background-image: -webkit-linear-gradient(270deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/TSAK_BED_10.JPG');
+  background-image: linear-gradient(180deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/TSAK_BED_10.JPG');
+}
+
+.slider5.dinokratous {
+  background-image: -webkit-linear-gradient(270deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/DINO_LIV_4.jpg');
+  background-image: linear-gradient(180deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/DINO_LIV_4.jpg');
+}
+
+.slider5.kea {
+  background-image: -webkit-linear-gradient(270deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/KEA_LIV_2.JPG');
+  background-image: linear-gradient(180deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/KEA_LIV_2.JPG');
+}
+
+.slider5.sounio {
+  background-image: -webkit-linear-gradient(270deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/SOUN_OUT_14.jpg');
+  background-image: linear-gradient(180deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/SOUN_OUT_14.jpg');
+}
+
+.slider5.ipsolantoub {
+  background-image: -webkit-linear-gradient(270deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/IpsilantouB_Bed4.resized.jpg');
+  background-image: linear-gradient(180deg, rgba(185, 202, 199, .64), rgba(214, 0, 79, .6)), url('../images/IpsilantouB_Bed4.resized.jpg');
+  background-size: auto, cover;
+}
+
+.slider_part_4.delfon_kitch {
+  background-image: url('../images/DELF_KICH_4.jpg');
+  background-position: 41% 50%;
+  background-size: cover;
+}
+
+.slider_part_4.taksilou_living {
+  background-image: url('../images/TAKS_LIV_4.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_4.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_4.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.tsakalof_bedroom {
+  background-image: url('../images/IpsilantouB_Bed4.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.tsakalof_kitch {
+  background-image: url('../images/IpsilantouB_Kitchen2.resized.jpg'), url('../images/IpsilantouB_Kitchen3.resized.jpg');
+  background-position: -124px 0px, 0px 0px;
+  background-size: cover, cover;
+}
+
+.slider_part_4.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_4.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.dinokratous_bathroom {
+  background-image: url('../images/DINO_OUT_4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_4.dinokratous_living {
+  background-image: url('../images/DINO_LIV_4.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.kea_out {
+  background-image: url('../images/KEA_LIV_4.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.kea_living {
+  background-image: url('../images/KEA_LIV_4.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_4.sounio_bedroom {
+  background-image: url('../images/SOYN_BED_4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_4.sounio_out {
+  background-image: url('../images/SOYN_OUT_14.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_4.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_3.jpg');
+  background-position: 50% 16%;
+  background-size: cover;
+}
+
+.slider_part_4.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_4.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.anteia_out {
+  background-image: url('../images/DINO_OUT_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.ipsilantoub_liv {
+  background-image: url('../images/IpsilantouB_Living2.resized.jpg');
+  background-position: -134px 0px;
+  background-size: cover;
+}
+
+.slider_part_4.ipsilantoub_out {
+  background-image: url('../images/IpsilantouB_Out2.resized.jpg');
+  background-position: 0px -135px;
+  background-size: cover;
+}
+
+.slider_part_5.delfon_kitch {
+  background-image: url('../images/DSC_7791.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_5.taksilou_living {
+  background-image: url('../images/TAKS_LIV_5.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_5.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_5.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_5.tsakalof_bedroom {
+  background-image: url('../images/TSAK_BED_5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_5.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_6.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_5.dinokratous_living {
+  background-image: url('../images/DINO_LIV_5.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_5.kea_out {
+  background-image: url('../images/KEA_OUT_5.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_5.sounio_bedroom {
+  background-image: url('../images/SOYN_BED_5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_5.sounio_out {
+  background-image: url('../images/SOYN_OUT_5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_5.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_5.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_5.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.slider_part_5.ipsilantoub_bed {
+  background-image: url('../images/IpsilantouB_Bed6.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_5.ipsilantoub_liv {
+  background-image: url('../images/IpsilantouB_Living3.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_5.ipsilantoub_kitch {
+  background-image: url('../images/IpsilantouB_Kitchen3.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider6 {
+  background-image: -webkit-linear-gradient(269deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/DELF_KICH_1.jpg');
+  background-image: linear-gradient(181deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/DELF_KICH_1.jpg');
+  background-position: 0px 0px, 97% 89%;
+  background-size: auto, 1250px;
+}
+
+.slider6.tsakalof {
+  background-image: -webkit-linear-gradient(269deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/TSAK_DIN_1.jpg');
+  background-image: linear-gradient(181deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/TSAK_DIN_1.jpg');
+  background-size: auto, 1250px;
+}
+
+.slider6.taksilou {
+  background-image: -webkit-linear-gradient(269deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/TAKS_LIV.JPG');
+  background-image: linear-gradient(181deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/TAKS_LIV.JPG');
+  background-size: auto, 625px;
+}
+
+.slider6.dinokratous {
+  background-image: -webkit-linear-gradient(269deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/DINO_BED_2.jpg');
+  background-image: linear-gradient(181deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/DINO_BED_2.jpg');
+  background-size: auto, cover;
+}
+
+.slider6.ipsolantoub {
+  background-image: -webkit-linear-gradient(269deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/IpsilantouB_Kitchen3.resized.jpg');
+  background-image: linear-gradient(181deg, rgba(209, 182, 40, .88), hsla(60, 9%, 58%, .66) 90%), url('../images/IpsilantouB_Kitchen3.resized.jpg');
+  background-size: auto, cover;
+}
+
+.slider7 {
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(270deg, rgba(98, 175, 62, .7), rgba(133, 60, 27, .42)), url('../images/TSAK_OUT_3.JPG');
+  background-image: linear-gradient(180deg, rgba(98, 175, 62, .7), rgba(133, 60, 27, .42)), url('../images/TSAK_OUT_3.JPG');
+  background-position: 0px 0px, 100% 100%;
+  background-size: auto, cover;
+}
+
+.slider7.slider_dino {
+  background-image: url('../images/DINO_OUT_2.jpg'), -webkit-linear-gradient(270deg, rgba(98, 175, 62, .7), rgba(133, 60, 27, .42));
+  background-image: url('../images/DINO_OUT_2.jpg'), linear-gradient(180deg, rgba(98, 175, 62, .7), rgba(133, 60, 27, .42));
+  background-position: 0px 0px, 0px 0px;
+  background-size: 1250px, auto;
+}
+
+.slider0 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 51, 214, .6), rgba(140, 221, 231, .51)), url('../images/1234321.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 51, 214, .6), rgba(140, 221, 231, .51)), url('../images/1234321.jpg');
+  background-position: 0px 0px, -23px -28px;
+  background-size: auto, 1001px;
+}
+
+.paragraph_overview {
+  color: #fff;
+}
+
+.header_text {
+  margin-top: 10px;
+  float: left;
+}
+
+.h4_blue_header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.body {
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .92) 83%, rgba(0, 0, 0, .99) 95%), url('../images/KEA_OUT_7.JPG');
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .92) 83%, rgba(0, 0, 0, .99) 95%), url('../images/KEA_OUT_7.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+  background-attachment: scroll, scroll;
+}
+
+.slider_home_slide_1 {
+  border-radius: 10px;
+  background-image: url('../images/DINO_BED_3.jpg');
+  background-position: -53px 50%;
+  background-size: cover;
+}
+
+.slider_home_slide_2 {
+  border-radius: 10px;
+  background-image: url('../images/DINO_BATH_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_home_slide_3 {
+  border-radius: 10px;
+  background-image: url('../images/TSAK_DIN_12.JPG');
+  background-position: 50% 82%;
+  background-size: cover;
+}
+
+.slider_home_slide_4 {
+  border-radius: 10px;
+  background-image: url('../images/TSAK_OUT_2.JPG');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.slider_home_slide_5 {
+  border-radius: 10px;
+  background-image: url('../images/DINO_LIV.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.slider_home_2_slide_1 {
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(270deg, rgba(35, 115, 189, .72), hsla(214, 4%, 69%, .23)), url('../images/SOYN_OUT_2.jpg');
+  background-image: linear-gradient(180deg, rgba(35, 115, 189, .72), hsla(214, 4%, 69%, .23)), url('../images/SOYN_OUT_2.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slider_home_2_slide_1.home {
+  background-image: url('../images/SOYN_OUT_2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_home_2_slide_2 {
+  border-radius: 10px;
+  background-image: url('../images/SOYN_BATH_5.jpg');
+  background-position: 50% 21%;
+  background-size: cover;
+}
+
+.slider_home_2_slide_3 {
+  border-radius: 10px;
+  background-image: url('../images/KEA_OUT_7.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_home_2_slide_4 {
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(270deg, rgba(66, 131, 211, .72), hsla(0, 0%, 61%, .4)), url('../images/KEA_OUT_4.JPG');
+  background-image: linear-gradient(180deg, rgba(66, 131, 211, .72), hsla(0, 0%, 61%, .4)), url('../images/KEA_OUT_4.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.slider_home_2_slide_4.home {
+  background-image: url('../images/KEA_OUT_4.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_home_2_slide_5 {
+  border-radius: 10px;
+  background-image: url('../images/SOYN_OUT_1.JPG');
+  background-position: 50% 56%;
+  background-size: cover;
+}
+
+.slider_home_reviews {
+  height: 520px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(163, 181, 184, .14);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.slider_home_reviews.home_page {
+  height: 360px;
+  margin-top: 0px;
+}
+
+.paragraph_home {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.slider_home_notes {
+  background-color: transparent;
+}
+
+.row_hoem {
+  display: block;
+}
+
+.home_header {
+  height: 500px;
+  background-image: url('../images/SOYN_OUT_2.jpg');
+  background-position: 50% 23%;
+  background-size: cover;
+}
+
+.home_header_text {
+  margin-top: 5px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 46px;
+  text-align: center;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .6);
+}
+
+.home_header_text_2 {
+  margin-top: 139px;
+  margin-bottom: 5px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, .6);
+}
+
+.home_header_link {
+  width: 180px;
+  height: 180px;
+  margin-right: -10px;
+  padding-top: 0px;
+  float: right;
+  border-style: none;
+  border-radius: 100px;
+  background-color: #e47f32;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home_header_text_3 {
+  display: block;
+  margin: 55px auto auto;
+  float: none;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.slider_part_6.tsakalof_bedroom {
+  background-image: url('../images/TSAK_LIV_6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_6.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_6.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_6.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_6.dinokratous_living {
+  background-image: url('../images/DINO_LIV_6.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_6.kea_out {
+  background-image: url('../images/KEA_OUT_6.JPG');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.slider_part_6.sounio_bedroom {
+  background-image: url('../images/SOYN_BED_6.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_6.sounio_out {
+  background-image: url('../images/SOYN_OUT_11.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.slider_part_6.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_6.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.slider_part_6.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_12.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_6.delfon_kitch {
+  background-image: url('../images/DELF_LIV_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_6.ipsilantoub_bed {
+  background-image: url('../images/IpsilantouB_Bed7.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_6.ipsilantoub_liv {
+  background-image: url('../images/IpsilantouB_Living4.resized.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_7.tsakalof_living {
+  background-image: url('../images/TSAK_LIV_7.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_7.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_7.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+}
+
+.slider_part_7.dinokratous_living {
+  background-image: url('../images/DINO_LIV_7.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_7.sounio_bedroom {
+  background-image: url('../images/SOYN_BED_7.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_7.sounio_out {
+  background-image: url('../images/SOYN_OUT_0.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_7.sounio_bathroom {
+  background-image: url('../images/SOYN_BATH_7.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.slider_part_7.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_7.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_7.delfon_kitch {
+  background-image: url('../images/DELF_LIV_3.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_8.dinokratous_bedroom {
+  background-image: url('../images/DINO_BED_8.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.slider_part_8.sounio_bedroom {
+  background-image: url('../images/SOUN_BED_15.jpg');
+  background-position: 63% 50%;
+  background-size: cover;
+}
+
+.slider_part_8.sounio_out {
+  background-image: url('../images/SOUN_OUT_15.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_8.tsakalof_dinning {
+  background-image: url('../images/TSAK_DIN_8.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_8.delfon_kitch {
+  background-image: url('../images/DELF_KICH_2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_9.sounio_bedroom {
+  background-image: url('../images/SOUN_BED_16.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.slider_part_9.sounio_out {
+  background-image: url('../images/SOYN_OUT_9.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_9.delfon_kitch {
+  background-image: url('../images/DELF_KICH_8.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider_part_10 {
+  background-image: url('../images/SOYN_BED_10.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.slider_part_10.sounio_bedroom {
+  background-image: url('../images/SOUN_BED_18.jpg');
+  background-size: cover;
+}
+
+.slider_part_10.sounio_out {
+  background-image: url('../images/SOUN_OUT_16.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.slider_part_11.sounio_out {
+  background-image: url('../images/SOYN_OUT_11.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_12.sounio_out {
+  background-image: url('../images/SOYN_OUT_12.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+.slider_part_13.sounio_out {
+  background-image: url('../images/SOYN_OUT_13.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider_part_14.sounio_out {
+  background-image: url('../images/SOYN_OUT_14.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.about_link {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header_logo_small {
+  margin-top: 9px;
+  margin-left: 4px;
+  float: left;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.header_logo_big {
+  margin-top: 9px;
+  margin-left: -3px;
+  float: left;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  text-transform: lowercase;
+}
+
+.contact_checkbox {
+  margin-left: 10px;
+  float: left;
+}
+
+.checkbox_months_divblock {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid hsla(0, 0%, 100%, .15);
+}
+
+.checkbox_apart_divblock {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid hsla(0, 0%, 100%, .15);
+}
+
+.slider1 {
+  background-image: -webkit-linear-gradient(270deg, rgba(90, 131, 168, .74), rgba(214, 155, 66, .22)), url('../images/KEA_OUT_4.JPG');
+  background-image: linear-gradient(180deg, rgba(90, 131, 168, .74), rgba(214, 155, 66, .22)), url('../images/KEA_OUT_4.JPG');
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, cover;
+}
+
+.slider1.sounio {
+  background-image: -webkit-linear-gradient(270deg, rgba(90, 131, 168, .74), rgba(214, 155, 66, .22)), url('../images/SOUN_OUT_19.jpg');
+  background-image: linear-gradient(180deg, rgba(90, 131, 168, .74), rgba(214, 155, 66, .22)), url('../images/SOUN_OUT_19.jpg');
+}
+
+.overview_text {
+  font-family: Muli, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.month {
+  display: block;
+  width: 90%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7px;
+  text-indent: 6px;
+}
+
+.day {
+  display: block;
+  width: 90%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7px;
+  padding-right: 24px;
+  padding-left: 13px;
+}
+
+.logo_text {
+  color: #00bdd6;
+}
+
+.tsakalof_out_4 {
+  background-image: url('../images/TSAK_OUT_8.jpg');
+  background-position: 0px 0px;
+  background-size: 2144px;
+}
+
+.jp_logo {
+  display: none;
+  float: right;
+}
+
+.jp_link {
+  float: right;
+}
+
+.about_us_jp_text {
+  color: #fff;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  text-shadow: 0 1px 0 #000;
+}
+
+.hide_ipsilantous {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="portfolio-hover-animation"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="portfolio-title-animation"] {
+  opacity: 0.89;
+  -webkit-transform: translate(0px, -24px);
+  -ms-transform: translate(0px, -24px);
+  transform: translate(0px, -24px);
+}
+
+html.w-mod-js *[data-ix="tagline-animation"] {
+  opacity: 0.89;
+  -webkit-transform: translate(0px, 24px);
+  -ms-transform: translate(0px, 24px);
+  transform: translate(0px, 24px);
+}
+
+@media (max-width: 991px) {
+  h3 {
+    font-size: 16px;
+  }
+  a {
+    display: block;
+    padding-left: 0px;
+    float: none;
+    color: #fff;
+    text-align: center;
+  }
+  .navbar-link {
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .navbar-link.w--current {
+    display: block;
+    color: #00bdd6;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .portfolio-title {
+    display: block;
+    margin-top: -30px;
+  }
+  .portfolio-post._1 {
+    background-position: 50% 50%;
+  }
+  .portfolio-post._4 {
+    background-position: 50% 50%;
+  }
+  .colorbox {
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .google-map {
+    height: 520px;
+  }
+  .social-link-wrapper {
+    display: block;
+    margin-top: 20px;
+  }
+  .social-link-wrapper.about {
+    display: block;
+    margin-top: 10px;
+  }
+  .social-link {
+    margin-top: 17px;
+  }
+  .testimonials-info {
+    margin-right: 113px;
+  }
+  .testimonials-info.testimonials {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .map-link-block {
+    height: 520px;
+  }
+  .team-box {
+    padding-right: 100px;
+  }
+  .testimonials-text {
+    font-size: 10px;
+  }
+  .about-project-box {
+    height: 270px;
+  }
+  .navmenu {
+    position: relative;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    float: right;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+  }
+  .menubutton {
+    border: 1px solid rgba(163, 181, 184, .29);
+    border-radius: 5px;
+  }
+  .menubutton.w--open {
+    border-color: rgba(163, 181, 184, .49);
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .64), #000), url('../images/1242342_1.jpg');
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(0, 0, 0, .64), #000), url('../images/1242342_1.jpg');
+    background-size: auto, auto 3500px;
+    background-repeat: repeat, repeat;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  a {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+  }
+  .navbar-link {
+    height: auto;
+  }
+  .portfolio-post._1 {
+    width: 100%;
+  }
+  .portfolio-post._3 {
+    background-position: 50% 50%;
+  }
+  .portfolio-post._3.ipsolantoub {
+    margin-bottom: 40px;
+  }
+  .portfolio-post._10.ipsolantoub {
+    background-position: 0px -292px;
+    background-size: cover;
+  }
+  .colorbox {
+    padding-top: 80px;
+  }
+  .copyright {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    float: none;
+    text-align: center;
+  }
+  .copyright.created-by {
+    display: block;
+    padding-bottom: 0px;
+    float: none;
+  }
+  .slider {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .google-map {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .slider_part_in_in {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .testimonials-info {
+    margin-right: 200px;
+  }
+  .testimonials-info.testimonials {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .footer-section {
+    padding-top: 30px;
+  }
+  .form.wrapper {
+    height: 849px;
+  }
+  .go-about {
+    height: 35px;
+    margin-top: 15px;
+    background-size: 30px;
+  }
+  .go-about:hover {
+    height: 35px;
+    border-color: #00bdd6;
+    background-color: #00bdd6;
+  }
+  .about-me-box {
+    height: 450px;
+  }
+  .about-me-box.home {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .about-us-box {
+    margin-bottom: 20px;
+  }
+  .map-link-block {
+    display: block;
+    height: 200px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  .team-box {
+    padding-right: 250px;
+  }
+  .testimonials-text {
+    font-size: 10px;
+  }
+  .about-post {
+    margin-bottom: 20px;
+  }
+  .fullwidth-photo {
+    margin-bottom: 20px;
+  }
+  .about-project-box.details {
+    height: 250px;
+  }
+  .menubutton {
+    margin-right: 10px;
+  }
+  .lightbox_image {
+    height: auto;
+  }
+  .lightbox_image.taksilou.long {
+    margin-top: 0px;
+  }
+  .slider_first_in._2.tsakalof {
+    margin-bottom: 23px;
+  }
+  .slider_home_reviews {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .home_header_link {
+    width: 180px;
+    margin-right: 5px;
+  }
+  .about_link {
+    height: auto;
+    clear: none;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    background-size: auto, auto 5500px;
+  }
+  a {
+    display: block;
+    float: none;
+  }
+  .portfolio-post._1 {
+    background-position: 50% 50%;
+  }
+  .portfolio-post._3 {
+    margin-top: 0px;
+  }
+  .portfolio-post._4 {
+    background-position: 50% 50%;
+  }
+  .portfolio-post._10.ipsolantoub {
+    background-size: auto;
+  }
+  .colorbox {
+    display: block;
+  }
+  .copyright {
+    display: block;
+    padding-bottom: 9px;
+    float: none;
+    text-align: center;
+  }
+  .copyright.created-by {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: none;
+  }
+  .hero-heading {
+    margin-top: 0px;
+    font-size: 45px;
+    letter-spacing: 1px;
+  }
+  .hero-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+  }
+  .slide-nav {
+    position: relative;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  .slider_part_in_in {
+    width: auto;
+    height: 252px;
+  }
+  .testimonials-info {
+    display: inline-block;
+    margin-right: 52px;
+    padding-top: 0px;
+  }
+  .footer-section {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .bold-headline {
+    font-size: 32px;
+  }
+  .form.wrapper {
+    height: 873px;
+  }
+  .go-about {
+    float: right;
+  }
+  .about-me-box {
+    height: 590px;
+  }
+  .about-me-box.part {
+    display: block;
+    width: auto;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .about-us-box {
+    height: 290px;
+  }
+  .map-link-block {
+    height: 200px;
+    margin-bottom: 0px;
+  }
+  .team-box {
+    padding-right: 50px;
+  }
+  .testimonials-text {
+    font-size: 10px;
+  }
+  .about-project-box {
+    height: 380px;
+  }
+  .about-project-box.details {
+    height: 250px;
+  }
+  .column_1_delfon_2 {
+    margin-top: 20px;
+  }
+  .lightbox_image.taksilou.long {
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .slider_first._1 {
+    margin-top: 0px;
+  }
+  .slider_first._3 {
+    margin-bottom: 20px;
+  }
+  .home_header_link {
+    width: 120px;
+    height: 120px;
+  }
+  .home_header_text_3 {
+    margin-top: 25px;
+  }
+}
+
